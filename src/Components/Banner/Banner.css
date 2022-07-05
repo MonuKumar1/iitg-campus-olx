@@ -1,10 +1,13 @@
 .bannerParentDiv {
   padding-top: 4em;
+
 } 
 
 .bannerParentDiv .bannerChildDiv .menuBar {
   display: flex;
   padding: 10px 16px 10px 16px;
+  background-color: rgb(37, 40, 67);
+  color:white;
 }
 
 
@@ -12,6 +15,7 @@
 .bannerParentDiv .bannerChildDiv .menuBar .categoryMenu span {
   margin-right: 16px;
   font-weight: bolder;
+
 }
 
 

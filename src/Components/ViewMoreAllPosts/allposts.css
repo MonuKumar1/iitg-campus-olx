@@ -2,7 +2,7 @@
     padding-top: 6em;
     padding-bottom: 1em;
     margin:0 1rem;
-    background-color: #ebeeef;
+    background-color: rgb(244, 228, 226);
 }
 
 .container-allpost{
@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     justify-content: center;
+    /* background-color: rgb(207, 171, 165); */
 }
 
 .all-post-card{

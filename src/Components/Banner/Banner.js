@@ -18,26 +18,26 @@ function Banner() {
               }}
             >
               {" "}
-              <option value="null">ALL CATEGORIES</option>
-              <option value="Cars">Cars</option>
-              <option value="Cameras & Lenses">Cameras & Lenses</option>
-              <option value="Computers & Laptops">Computers & Laptops</option>
-              <option value="Mobile Phones">Mobile Phones</option>
-              <option value="Motorcycles">Motorcycles</option>
-              <option value="Tablets">Tablets</option>
+              <option value="null">Choose From Here</option>
+              <option value="Cars">Stationary</option>
+              <option value="Cameras & Lenses">Electonics</option>
+              <option value="Computers & Laptops">Musical Instruments</option>
+              <option value="Mobile Phones">Cycles</option>
+              <option value="Motorcycles">Mobiles and Laptops</option>
+              <option value="Tablets">Other Accessories</option>
             </select>
           </div>
           <div className="otherQuickOptions">
-            <span onClick={()=>setCategory("Cars")} >Cars</span>
-            <span onClick={()=>setCategory("Cameras & Lenses")} >Cameras & Lenses</span>
-            <span onClick={()=>setCategory("Computers & Laptops")} >Computers & Laptops</span>
-            <span onClick={()=>setCategory("Mobile Phones")} >Mobile Phones</span>
-            <span onClick={()=>setCategory("Motorcycles")} >Motorcycles</span>
-            <span onClick={()=>setCategory("Tablets")} >Tablets</span>
+            <span onClick={()=>setCategory("Stationary")} >Stationary</span>
+            <span onClick={()=>setCategory("Cameras & Lenses")} >Electonics</span>
+            <span onClick={()=>setCategory("Computers & Laptops")} >Musical Instruments</span>
+            <span onClick={()=>setCategory("Mobile Phones")} >Cycles</span>
+            <span onClick={()=>setCategory("Motorcycles")} >Mobiles and Laptops</span>
+            <span onClick={()=>setCategory("Tablets")} >Other Accessories</span>
           </div>
         </div>
         <div className="banner">
-          <img src="../../../Images/banner copy.png" alt="" />
+          <img src="../../../Images/Copy of iitg.png" alt="" />
         </div>
       </div>
      { category!=null && <DynamicPosts category={category}/>  }

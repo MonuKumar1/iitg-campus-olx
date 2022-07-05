@@ -8,14 +8,14 @@ function Footer() {
       <div className="content">
         <div>
           <div className="heading">
-            <p>POPULAR LOCATIONS</p>
+            <p>Popular Hostels</p>
           </div>
           <div className="list">
             <ul>
-              <li>kolkata</li>
-              <li>Mumbai</li>
-              <li>Chennai</li>
-              <li>Pune</li>
+              <li>Manas</li>
+              <li>Disang</li>
+              <li>Lohit</li>
+              <li>Brahma</li>
             </ul>
           </div>
         </div>
@@ -25,7 +25,7 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-              <li>About OLX Group</li>
+              <li>About IITG Campus OLX</li>
               <li>Careers</li>
               <li>Contact Us</li>
               <li>OLXPeople</li>
@@ -34,20 +34,22 @@ function Footer() {
         </div>
         <div>
           <div className="heading">
-            <p>OLX</p>
+            <p>Team Members</p>
           </div>
           <div className="list">
             <ul>
-              <li>Help</li>
-              <li>Sitemap</li>
-              <li>Legal & Privacy information</li>
+            <li>Durgesh K. Meena</li>
+              <li>Monu Kumar</li>
+              <li>Aisha Ray</li>
+              <li>Meghna Barnwal</li>
+              <li>Aishwarya Kamble</li>
             </ul>
           </div>
         </div>
       </div>
       <div className="footer">
-        <p>Other Countries Pakistan - South Africa - Indonesia</p>
-        <p>Free Classifieds in India. © 2006-2021 OLX</p>
+        <p>IITG Coding Club </p>
+        <p> © IITG Campus OLX - 2022</p>
       </div>
     </div>
   );
